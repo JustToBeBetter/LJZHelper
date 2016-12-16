@@ -15,6 +15,13 @@
 		E80552651E013519006D47ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E80552631E013519006D47ED /* LaunchScreen.storyboard */; };
 		E80552701E013519006D47ED /* LJZHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E805526F1E013519006D47ED /* LJZHelperTests.m */; };
 		E805527B1E013519006D47ED /* LJZHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E805527A1E013519006D47ED /* LJZHelperUITests.m */; };
+		E82A28661E023BF100A922D3 /* AdHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E82A28641E023BF100A922D3 /* AdHelper.m */; };
+		E82A28691E023C0D00A922D3 /* AdView.m in Sources */ = {isa = PBXBuildFile; fileRef = E82A28681E023C0D00A922D3 /* AdView.m */; };
+		E82A286E1E023F0C00A922D3 /* IntroductoryPagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = E82A286D1E023F0C00A922D3 /* IntroductoryPagesView.m */; };
+		E82A28721E023FD600A922D3 /* IntroductoryPagesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E82A28711E023FD600A922D3 /* IntroductoryPagesHelper.m */; };
+		E82A28761E02459E00A922D3 /* GVUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = E82A28751E02459E00A922D3 /* GVUserDefaults.m */; };
+		E82A28791E02461300A922D3 /* GVUserDefaults+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = E82A28781E02461300A922D3 /* GVUserDefaults+Properties.m */; };
+		E82A287D1E027D0100A922D3 /* ImageCompressHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E82A287C1E027D0100A922D3 /* ImageCompressHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,22 @@
 		E80552761E013519006D47ED /* LJZHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJZHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E805527A1E013519006D47ED /* LJZHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJZHelperUITests.m; sourceTree = "<group>"; };
 		E805527C1E013519006D47ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E82A285C1E023A3E00A922D3 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		E82A28631E023BF100A922D3 /* AdHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdHelper.h; sourceTree = "<group>"; };
+		E82A28641E023BF100A922D3 /* AdHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdHelper.m; sourceTree = "<group>"; };
+		E82A28651E023BF100A922D3 /* LJZHelperPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJZHelperPrefixHeader.pch; sourceTree = "<group>"; };
+		E82A28671E023C0D00A922D3 /* AdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdView.h; sourceTree = "<group>"; };
+		E82A28681E023C0D00A922D3 /* AdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdView.m; sourceTree = "<group>"; };
+		E82A286C1E023F0C00A922D3 /* IntroductoryPagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroductoryPagesView.h; sourceTree = "<group>"; };
+		E82A286D1E023F0C00A922D3 /* IntroductoryPagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroductoryPagesView.m; sourceTree = "<group>"; };
+		E82A28701E023FD600A922D3 /* IntroductoryPagesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroductoryPagesHelper.h; sourceTree = "<group>"; };
+		E82A28711E023FD600A922D3 /* IntroductoryPagesHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroductoryPagesHelper.m; sourceTree = "<group>"; };
+		E82A28741E02459E00A922D3 /* GVUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVUserDefaults.h; sourceTree = "<group>"; };
+		E82A28751E02459E00A922D3 /* GVUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVUserDefaults.m; sourceTree = "<group>"; };
+		E82A28771E02461300A922D3 /* GVUserDefaults+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GVUserDefaults+Properties.h"; sourceTree = "<group>"; };
+		E82A28781E02461300A922D3 /* GVUserDefaults+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GVUserDefaults+Properties.m"; sourceTree = "<group>"; };
+		E82A287B1E027D0100A922D3 /* ImageCompressHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCompressHelper.h; sourceTree = "<group>"; };
+		E82A287C1E027D0100A922D3 /* ImageCompressHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCompressHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +124,10 @@
 		E80552541E013519006D47ED /* LJZHelper */ = {
 			isa = PBXGroup;
 			children = (
-				E80552581E013519006D47ED /* AppDelegate.h */,
-				E80552591E013519006D47ED /* AppDelegate.m */,
-				E805525B1E013519006D47ED /* ViewController.h */,
-				E805525C1E013519006D47ED /* ViewController.m */,
-				E805525E1E013519006D47ED /* Main.storyboard */,
-				E80552611E013519006D47ED /* Assets.xcassets */,
-				E80552631E013519006D47ED /* LaunchScreen.storyboard */,
-				E80552661E013519006D47ED /* Info.plist */,
+				E82A28731E02459E00A922D3 /* GVUserDefaults */,
+				E82A286F1E023F2C00A922D3 /* 引导页 */,
+				E82A286A1E023C1A00A922D3 /* ad广告 */,
+				E82A287E1E027D1600A922D3 /* 图片压缩 */,
 				E80552551E013519006D47ED /* Supporting Files */,
 			);
 			path = LJZHelper;
@@ -117,7 +136,17 @@
 		E80552551E013519006D47ED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E80552581E013519006D47ED /* AppDelegate.h */,
+				E80552591E013519006D47ED /* AppDelegate.m */,
+				E805525B1E013519006D47ED /* ViewController.h */,
+				E805525C1E013519006D47ED /* ViewController.m */,
 				E80552561E013519006D47ED /* main.m */,
+				E805525E1E013519006D47ED /* Main.storyboard */,
+				E80552611E013519006D47ED /* Assets.xcassets */,
+				E80552631E013519006D47ED /* LaunchScreen.storyboard */,
+				E80552661E013519006D47ED /* Info.plist */,
+				E82A285C1E023A3E00A922D3 /* Define.h */,
+				E82A28651E023BF100A922D3 /* LJZHelperPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +167,48 @@
 				E805527C1E013519006D47ED /* Info.plist */,
 			);
 			path = LJZHelperUITests;
+			sourceTree = "<group>";
+		};
+		E82A286A1E023C1A00A922D3 /* ad广告 */ = {
+			isa = PBXGroup;
+			children = (
+				E82A28631E023BF100A922D3 /* AdHelper.h */,
+				E82A28641E023BF100A922D3 /* AdHelper.m */,
+				E82A28671E023C0D00A922D3 /* AdView.h */,
+				E82A28681E023C0D00A922D3 /* AdView.m */,
+			);
+			name = "ad广告";
+			sourceTree = "<group>";
+		};
+		E82A286F1E023F2C00A922D3 /* 引导页 */ = {
+			isa = PBXGroup;
+			children = (
+				E82A286C1E023F0C00A922D3 /* IntroductoryPagesView.h */,
+				E82A286D1E023F0C00A922D3 /* IntroductoryPagesView.m */,
+				E82A28701E023FD600A922D3 /* IntroductoryPagesHelper.h */,
+				E82A28711E023FD600A922D3 /* IntroductoryPagesHelper.m */,
+			);
+			name = "引导页";
+			sourceTree = "<group>";
+		};
+		E82A28731E02459E00A922D3 /* GVUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				E82A28741E02459E00A922D3 /* GVUserDefaults.h */,
+				E82A28751E02459E00A922D3 /* GVUserDefaults.m */,
+				E82A28771E02461300A922D3 /* GVUserDefaults+Properties.h */,
+				E82A28781E02461300A922D3 /* GVUserDefaults+Properties.m */,
+			);
+			path = GVUserDefaults;
+			sourceTree = "<group>";
+		};
+		E82A287E1E027D1600A922D3 /* 图片压缩 */ = {
+			isa = PBXGroup;
+			children = (
+				E82A287B1E027D0100A922D3 /* ImageCompressHelper.h */,
+				E82A287C1E027D0100A922D3 /* ImageCompressHelper.m */,
+			);
+			name = "图片压缩";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,8 +346,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E805525D1E013519006D47ED /* ViewController.m in Sources */,
+				E82A28721E023FD600A922D3 /* IntroductoryPagesHelper.m in Sources */,
+				E82A28791E02461300A922D3 /* GVUserDefaults+Properties.m in Sources */,
 				E805525A1E013519006D47ED /* AppDelegate.m in Sources */,
+				E82A28661E023BF100A922D3 /* AdHelper.m in Sources */,
+				E82A287D1E027D0100A922D3 /* ImageCompressHelper.m in Sources */,
+				E82A286E1E023F0C00A922D3 /* IntroductoryPagesView.m in Sources */,
 				E80552571E013519006D47ED /* main.m in Sources */,
+				E82A28691E023C0D00A922D3 /* AdView.m in Sources */,
+				E82A28761E02459E00A922D3 /* GVUserDefaults.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +502,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QW9Z5KHRK8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LJZHelper/LJZHelperPrefixHeader.pch";
 				INFOPLIST_FILE = LJZHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.designbox.LJZHelper;
@@ -436,6 +516,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QW9Z5KHRK8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LJZHelper/LJZHelperPrefixHeader.pch";
 				INFOPLIST_FILE = LJZHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.designbox.LJZHelper;
@@ -508,6 +590,7 @@
 				E80552811E013519006D47ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E80552821E013519006D47ED /* Build configuration list for PBXNativeTarget "LJZHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +599,7 @@
 				E80552841E013519006D47ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E80552851E013519006D47ED /* Build configuration list for PBXNativeTarget "LJZHelperUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +608,7 @@
 				E80552871E013519006D47ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
